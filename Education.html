@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>certifications</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <link rel="stylesheet" href="css/all.min.css">
+ <link rel="stylesheet" href="css/bootstrap.css">
+ <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="css/core.css">
+ 
+ 
+</head>
+<body>
+
+
+<div class="container-fluid bg-dark">
+  <div class="row">
+
+
+   <div class="col-sm-2" id="left">
+    
+        <div class="border-right border-warning h-100">
+      <div class="text-center">
+          <img src="images/pic1.jpg" alt="ProfilePic" class="img-fluid rounded-circle mt-5" width="100px" heght="100px">
+          <h3 class="text-white mt-3 st-font">Anupam Kushwaha</h3>
+      </div>
+      <hr class="border-light">
+      <nav class="nav flex-column text-center">
+          <a href="home.html" class="nav-link active">Home</a>
+          <a href="Education.html" class="nav-link" id="active">Education</a>
+          <a href="certifications.html" class="nav-link" >certifications</a>
+          <a href="skills.html" class="nav-link">Skill</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+    </div>
+
+  </div>
+
+
+
+    <div id="right" class="col-sm-10 text-white row">
+        
+      <div class="container mt-5">
+          <h1 class="text-warning st-font">Education</h1>
+      </div>
+       
+     <hr style="width:100%" class=" border-bottom" >
+
+      <div class=" col-sm-8">
+        <h2 class="i-color mt-5"> 
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+              Sushila Devi Bansal College Of Technology.
+        </h2>
+        <h4 class="i-color">Computer Science Engineering.</h4>
+      </div>
+      <div class="  col-sm-4">
+        <h5 class="mt-5"> August 2016 - June 2020</h5>
+        <h5 class="mt-4">8.1 CGPA </h5>
+      </div>
+      
+
+     <hr style="width:100%" class="mt-5 border-bottom" >
+
+      <div class=" col-sm-8">
+        <h2 class="i-color ">
+            <i class="fa fa-university" aria-hidden="true"></i>
+             Vaishnav Cambridge Higher Secondary School.
+        </h2>
+        <h4 class="i-color">12 th.</h4>
+      </div>
+      <div class="  col-sm-4">
+        <h5 class=""> Jun 2015 - May 2016</h5>
+        <h5 class="mt-4">79.4 %  Percentage</h5>
+      </div>
+      
+
+     <hr style="width:100%" class="mt-5 border-bottom" >
+
+      <div class=" col-sm-8">
+        <h2 class="i-color ">
+            <i class="fa fa-university" aria-hidden="true"></i>
+            Vaishnav Cambridge Higher Secondary School.
+        </h2>
+        <h4 class="i-color">10 th.</h4>
+      </div>
+      <div class="  col-sm-4">
+        <h5 class=""> Jun 2013 - May 2014</h5>
+        <h5 class="mt-4">85.83 %  Percentage</h5>
+      </div>
+
+      
+
+  </div>
+</div>
+
+ <script src="js/jquery.js"></script>
+ <script src="js/popper.js"></script>
+ <script src="js/all.min.js"></script>
+ <script src="js/bootstrap.js"></script>
+
+</body>
+</html>
+<!-- 
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %} 
+<div class="mt-5">
+ <div class="text-center">
+  <img src="{% static 'core/images/pic1.jpg' %}" alt="ProfilePic" class="img-thumbnail" width="250px" height="150px">
+ </div>
+ <div class="mt-5 text-white mx-5 text-justify">
+  <h1 class="font-weight-bold st-font">Hello,</h1>
+  <div class="px-4" style="line-height:2rem;">
+   <p style="text-indent:100px;"> I am <b class="text-warning">Sonam Kashyap</b> having 5 years of full-stack web development experience for global businesses, I offer the technical expertise you are seeking for your web developer position.</p>
+   <p>Since earning my bachelor’s degree in internet and web development from XYZ University, I have served as a web developer at <b class="text-warning">GeekyShows Technology</b>, one of biggest premier digital marketing and web development firm. In this position, I have led web development projects for clients in diverse industries including technology, manufacturing, pharmaceutical, hospitality, retail and financial services.</p>
+   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet sapiente reiciendis numquam optio? Enim eligendi quae ducimus ipsam consectetur dicta veritatis sunt. Pariatur vel modi alias eum ducimus nam temporibus.</p>
+  </div>
+ </div>
+ <div class="text-center">
+  <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 mr-5">Hire Me</a>
+  <a href="{% url 'contact' %}" class="btn btn-outline-info my-3">Contact</a>
+ </div>
+</div>
+{% endblock content %} -->
+<!-- {% extends 'core/base.html' %}
+{% block content %} 
+<div class="container mt-5">
+ <h1 class="text-warning mb-5 border-bottom">SERVICES</h1>
+
+ <div class="row text-center text-white mb-5">
+  <div class="col-sm-4">
+   <i class="fas fa-search-dollar fa-2x mb-3 i-color"></i>
+   <h3>SEO</h3>
+   <p class="ss-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, neque.</p>
+  </div>
+  <div class="col-sm-4">
+   <i class="fas fa-palette fa-2x mb-3 i-color"></i>
+   <h3>Web Design</h3>
+   <p class="ss-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, neque.</p>
+  </div>
+  <div class="col-sm-4">
+   <i class="fas fa-code fa-2x mb-3 i-color"></i>
+   <h3>Web Development</h3>
+   <p class="ss-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, neque.</p>
+  </div>
+ </div>
+
+ <div class="row text-center text-white mb-5">
+  <div class="col-sm-4">
+   <i class="fab fa-android fa-2x mb-3 i-color"></i>
+   <h3>Android</h3>
+   <p class="ss-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, neque.</p>
+  </div>
+  <div class="col-sm-4">
+   <i class="fab fa-apple fa-2x mb-3 i-color"></i>
+   <h3>iOS</h3>
+   <p class="ss-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, neque.</p>
+  </div>
+  <div class="col-sm-4">
+   <i class="fas fa-ad fa-2x mb-3 i-color"></i>
+   <h3>Advertising</h3>
+   <p class="ss-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, neque.</p>
+  </div>
+ </div>
+
+ <div class="row text-center text-white mb-5">
+  <div class="col-sm-4">
+   <i class="fas fa-pencil-alt fa-2x mb-3 i-color"></i>
+   <h3>Logo Design</h3>
+   <p class="ss-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, neque.</p>
+  </div>
+  <div class="col-sm-4">
+   <i class="fas fa-database fa-2x mb-3 i-color"></i>
+   <h3>Hosting</h3>
+   <p class="ss-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, neque.</p>
+  </div>
+  <div class="col-sm-4">
+   <i class="fas fa-headset fa-2x mb-3 i-color"></i>
+   <h3>Support</h3>
+   <p class="ss-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, neque.</p>
+  </div>
+ </div>
+
+</div>
+{% endblock content %} -->

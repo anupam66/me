@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>contact</title>
+  <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+ <link rel="stylesheet" href="css/all.min.css">
+ <link rel="stylesheet" href="css/bootstrap.css">
+ <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="css/core.css">
+ 
+</head>
+<body>
+
+
+<div class="container-fluid bg-dark">
+  <div class="row">
+
+
+   <div class="col-sm-2" id="left">
+    
+        <div class="border-right border-warning h-100">
+      <div class="text-center">
+          <img src="images/pic1.jpg" alt="ProfilePic" class="img-fluid rounded-circle mt-5" width="100px" heght="100px">
+          <h3 class="text-white mt-3 st-font">Anupam Kushwaha</h3>
+      </div>
+      <hr class="border-light">
+      <nav class="nav flex-column text-center">
+          <a href="home.html" class="nav-link active">Home</a>
+          <a href="Education.html" class="nav-link">Education</a>
+          <a href="certifications.html" class="nav-link">certifications</a>
+          <a href="skills.html" class="nav-link">Skills</a>
+          <a href="contact.html" class="nav-link" id="active">Contact</a>
+      </nav>
+    </div>
+
+  </div>
+
+
+
+  <div id="right" class="col-sm-10">
+
+    <div class="container mt-5">
+        <h1 class="text-warning mb-5 border-bottom st-font">Contact us</h1>
+      <div class="row text-white mb-5">
+        <h5 class="mx-auto mb-5">
+            Do you have any questions? Please do not hesitate to contact. I will come back to you within a matter of hours to help you.
+        </h5>
+
+        <div class="row text-center">
+              <div class="col-sm-4 mb-5">
+                  <i class="fas fa-map-marker-alt mt-5 fa-3x i-color"></i>
+                  <p>Agrawal colony, dhannad khurd, pithampur, Dist : Dhar, (madhya Pradesh) </p>
+              </div>
+
+              <div class="col-sm-4 mb-5">
+                  <i class="fas fa-phone mt-5 fa-3x i-color"></i>
+                  <p>+91  9074473026</p>
+              </div>
+
+              <div class="col-sm-4 mb-5">
+                  <i class="fas fa-envelope mt-5 fa-3x i-color"></i>
+                  <a href=""><p class="text-white">anupamkush9@email.com</p></a>
+              </div>
+
+              <div class='col-sm-4'>
+                     <a href="https://www.linkedin.com/in/anupam-kushwaha-profile/" target="_blank"><i class="fab fa-linkedin i-color fa-3x mr-3 mt-5"></i></a>
+                     <p>Contact me on the linkedin</p>
+              </div>
+
+              <div class='col-sm-4'>
+                    <a href="https://www.facebook.com/profile.php?id=100008819626106" target="_blank"><i class="fab fa-facebook-f i-color fa-3x mr-3 mt-5"></i></a>
+                    <p>Contact me on the Facebook</p>
+              </div>
+
+              <div class='col-sm-4'>
+                    <a href="https://www.instagram.com/anupamkushwaha9?r=nametag" target="_blank"><i class="fab fa-instagram i-color fa-3x mr-3 mt-5"></i></a>
+                    <p>Follow me on the Instagram</p>
+              </div>
+
+
+        </div>
+      
+
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+</div>
+
+ <script src="js/jquery.js"></script>
+ <script src="js/popper.js"></script>
+ <script src="js/all.min.js"></script>
+ <script src="js/bootstrap.js"></script>
+
+</body>
+</html>
+
+<!-- {% extends 'core/base.html' %}
+{% block content %}
+<div class="container mt-5">
+  <h1 class="text-warning mb-5 border-bottom">CONTACT US</h1>
+  <div class="row text-white mb-5">
+    <p class="mx-auto mb-5">
+      Do you have any questions? Please do not hesitate to contact. I will come back to you within a matter of hours to help you.
+    </p>
+    <div class="col-sm-9 mb-5">
+      <form action="">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputName">Your Name</label>
+            <input type="text" class="form-control" id="inputName" />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputEmail">Your Email *</label>
+            <input type="email" class="form-control" id="inputEmail" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputSubject">Your Subject</label>
+          <input type="text" class="form-control" id="inputSubject" />
+        </div>
+        <div class="mb-3">
+          <label for="inputTextarea">Your message *</label>
+          <textarea class="form-control" id="inputTextarea" required></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Send</button>
+      </form>
+    </div>
+    <div class="col-sm-3 text-center">
+      <ul class="list-unstyled">
+        <li>
+          <i class="fas fa-map-marker-alt fa-2x i-color"></i>
+          <p>Ranchi, Jharkhand, India</p>
+        </li>
+        <li>
+          <i class="fas fa-phone mt-4 fa-2x i-color"></i>
+          <p>+ 91 90000000</p>
+        </li>
+        <li>
+          <i class="fas fa-envelope mt-4 fa-2x i-color"></i>
+          <p>contact@email.com</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="text-center">
+  <a href="#" target="_blank"><i class="fab fa-twitter i-color mr-3"></i></a>
+  <a href="#" target="_blank"><i class="fab fa-facebook-f i-color mr-3"></i></a>
+  <a href="#" target="_blank"><i class="fab fa-instagram i-color mr-3"></i></a>
+  <a href="#" target="_blank"><i class="fab fa-dribbble i-color"></i></a>
+</div>
+{% endblock content %} -->
